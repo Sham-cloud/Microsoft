@@ -1,0 +1,37 @@
+Linux commands:
+----------------------
+ls = to list the files and folders
+pwd = present working directory
+mkdir = create folder
+touch <filename> = to create files
+vi <filename> = to open the file
+to start writing in that file = hit insert on keyboard or i
+esc : wq! = to save exit the file
+cat <filename> = to see the content of the file
+--------------------------------------------------------------------------------------------
+global config:
+--------------------------------------------------------------------------------------------
+1) git config --global user.name "sameer"
+
+2) git config --global user.email "sameer123@gmail.com"
+
+3) git config --global --list
+
+This Global configuration is saved in the C:\Users\<user profile>\.gitconfig file
+---------------------------------------------------------------------------------------------
+Branch:
+---------------------------------------------------------------------------------------------
+
+1) to rename branch:
+git branch -m <existig branch name>  <new branch name>
+
+2) delete branch : git branch -D <branch name>
+
+3) create branch and checkout simulatneously:
+git checkout -b <new branch name>
+
+4) Untracked and uncommitted files generally shows up in all the branches and can be created in any branch.
+Whereever you commit them will be owned by that branch.
+
+5) to add the commits of one branch to another : master# git merge feature
+feature branch commits gets added to master branch.
